@@ -105,6 +105,11 @@ var Stopwatch = function (_React$Component) {
                         "button",
                         { onClick: this.stop.bind(this) },
                         "Stop"
+                    ),
+                    React.createElement(
+                        "button",
+                        { onClick: this.reset.bind(this) },
+                        "Reset"
                     )
                 ),
                 React.createElement(
